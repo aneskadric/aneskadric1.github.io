@@ -1,0 +1,57 @@
+<!-- html/project.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anes Kadric - Projects</title>
+  <link rel="stylesheet" href="./css/style1.css">
+  <link rel="stylesheet" href="./css/mobile.css">
+  <script src="./js/features.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <h1>Anes Kadric</h1>
+    <p><a href="mailto:kadrica@uindy.edu">kadrica@uindy.edu</a> | 513-641-8880</p>
+    <button id="darkModeToggle">🌙 Dark Mode</button>
+  </header>
+
+  <nav class="menu" role="tablist">
+    <a href="index.html" class="menu-item" data-tab="info" role="tab">Info</a>
+    <a href="project.html" class="menu-item active" data-tab="project" role="tab">Projects</a>
+    <a href="hobby.html" class="menu-item" data-tab="hobby" role="tab">Hobbies</a>
+  </nav>
+
+  <main class="content">
+    <section id="project-tab" class="tab-content active" role="tabpanel">
+      <div class="image-section">
+      </div>
+      <div class="text-section">
+        <h2 id="typingText"></h2>
+
+        <p class="desktop-text">Projects, education, and work experience from my Computer Science career.</p>
+        <p class="mobile-text">My CS projects & experience.</p>
+
+        <div id="quoteBox">Click the button to get a motivational quote.</div>
+        <button id="quoteBtn">New Quote</button>
+
+
+        <h3>Current Time</h3>
+        <div id="clock"></div>
+
+        <h3>Customize Theme</h3>
+        <label for="colorPicker">Choose Theme Color:</label>
+        <input type="color" id="colorPicker" value="#d32f2f">
+
+        <h3>Highlighted Projects</h3>
+        <ul>
+          <li><strong>Custom Card Game Simulation:</strong> A strategic card game coded in C++.</li>
+          <li><strong>Custom Board Game Simulation:</strong> A 7x7 board game built with data structures in C++.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <button id="scrollTopBtn">⬆</button>
+</body>
+</html>
